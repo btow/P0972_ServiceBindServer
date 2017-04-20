@@ -13,11 +13,10 @@
             android:name=".MyService"
             android:enabled="true"
             android:exported="true">
-            <intent-filter>
-                <action android:name="com.example.samsung.p0972_servicebindserver.MyService"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+            <action android:name="com.example.samsung.p0972_servicebindserver.MyService"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
         </service>
+
     </application>
 
 </manifest>
